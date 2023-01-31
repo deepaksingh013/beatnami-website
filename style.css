@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&family=Ubuntu&family=Unbounded&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;;
+}
+#navbar{
+    top: 0;
+    position: sticky;
+    z-index: 1000;
+}
+
+#navbar nav {
+    background-color: #02020F !important;
+}
+
+#navbar button {
+    background-color:
+        #E7DDCE;
+    color: #fff;
+    border-radius: 5px;
+    color:
+        #02020F;
+    font-weight: 700;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 30px;
+}
+
+#navbar a {
+    margin-right: 30px;
+    font-size: 13px;
+}
+
+.banner{
+    position: relative;
+    background-color: #02020F;
+    height: 115vh;
+    width: 100%;
+}
+.banner-circle{
+    position: absolute;
+    height: 700px;
+    width: 700px;
+    background-color:  #A81B2D;
+    border-radius: 50%;
+    top: 40px;
+    left: 70px;
+}
+
+.cloud img{
+    position: absolute;
+    height: 300px;
+    width: 550px;
+    top: 130px;
+}
+
+.banner-content{
+    position: absolute;
+    height: 400px;
+    width: 700px;
+    right: 410;
+    top: 360px;
+    text-align: right;
+   
+    color: #E7DDCE;
+}
+.banner-content h3{
+    position: absolute;
+    width: 100%;
+    font-size: 40px;
+    right: 0;
+}
+.banner-content h1{
+    font-size: 150px;
+ 
+}
+.banner-content h3{
+    margin: -30px;
+    margin-right: 17px;
+    font-weight: 500;
+ 
+
+}
+
+.all-logo{
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    place-items: center;
+    width: 80%;
+    height: 400px;
+    top: 600px;
+    margin-left: 150px;
+}
+.all-logo img{
+    height: 70px;
+}
+.all-logo .polygon{
+    height: 40px;
+}
+.all-logo h4{
+    font-size: 40px;
+    color: #fff;
+}
+.main{
+    position: relative;
+    height: 325vh;
+    width: 100%;
+    background-color: #E7DDCE;
+}
+.some-heading{
+    position: absolute;
+    right: 0;
+    height: 120vh;
+    width: 85%;
+    margin-top: 20px;
+}
+.some-heading-content{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.part-1{
+    height: 500px;
+    width: 600px;
+}
+.part-2{
+    position: absolute;
+    height: 500px;
+    width: 530px;
+    right: 0;
+}
+
+.part-1-image{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 40px;
+}
+.img-1{
+    height: 230px;
+    width: 230px;
+    border-radius: 10px;
+    background-color: #02020F;
+}
+.img-2{
+    left: 250px;
+    position: absolute;
+    height: 230px;
+    width: 230px;
+    border-radius: 10px;
+    background-color: #02020F;
+}
+
+.part-2{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.img-right1{
+    height: 500px;
+    width: 270px;
+}
+.img-right1 img{
+    height: 500px;
+    width: 260px;
+}
+
+.img-right2{
+    position: absolute;
+    right: 0;
+    height: 500px;
+    width: 280px;
+}
+.img-right2 img{
+    position: absolute;
+   right: 0;
+    width: 250px;
+    height: 250px;
+    top: 100;
+}
+
+.bottom-images{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    place-items: center;
+    width: 40%;
+}
+.bottom-images div{
+    padding-right: 50px;
+    height: 230px;
+    width: 230px;
+    background-color: #02020F;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.bottom-images img{
+    height: 210px;
+    margin-left: 20px;
+}
+.new-music .h1{
+    margin-right: 200px;
+}
+.new-music .p{
+    margin-right: 390px !important;
+}
+.new-music-content{
+    margin-top: 30px;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.new-music-content .card1{
+    height: 230px;
+    width: 120%;
+    margin-right: 10px;
+    background-color: #000;
+    border-radius: 10px;
+}
+.new-music-content .card2{
+    height: 230px;
+    width: 95%;
+    margin-right: 10px;
+    background-color: #000;
+    margin-left: 90px;
+    border-radius: 10px;
+}
+.new-music-content .card3{
+    position: absolute;
+    background-color: #000;
+    height: 230px;
+    width: 25%;
+    right: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.card1{
+    position: relative;
+}
+.card1 h1{
+    
+    position: absolute;
+    padding: 0 10px;
+    color: #fff;
+    top: 13;
+}
+.card1 p{
+    position: absolute;
+    font-size: 13px;
+    top: 60;
+    width: 70%;
+    padding: 5 10px;
+    color: #fff;
+}
+.card1 img{
+    position: absolute;
+    right: 0;
+    top: -5;
+}
+.card2{
+    position: relative;
+}
+.card2 img{
+    position: absolute;
+    right: 0;
+}
+.card2 h1{
+    
+    position: absolute;
+    padding: 0 10px;
+    color: #fff;
+    top: 13;
+}
+.card2 p{
+    position: absolute;
+    font-size: 13px;
+    top: 60;
+    width: 70%;
+    padding: 5 10px;
+    color: #fff;
+}
+.card3{
+    position: relative;
+    color: #fff;
+}
+.card3 h1{
+    position: absolute;
+    padding: 15px;
+}
+.card3 p{
+    position: absolute;
+    top: 60;
+    padding: 10px;
+    width: 100%;
+}
+.bg-img-1{
+    position: relative;
+}
+.circle-bg{
+    top: 65;
+    left: -300;
+    position: absolute;
+    height: 490px;
+    width: 490px;
+    border-radius: 50%;
+    background-color: #A81B2D;
+}
+.bg-img-1 img{
+    position: absolute;
+    left: -250;
+    width: 340px;
+    bottom: -190;
+}
+
+.right-image{
+    position: relative;
+}
+.right-image img{
+    position: absolute;
+    width: 450px;
+    right: 0;
+    top: 430;
+    height: 290px;
+
+}
+
+.launchpad{
+    position: absolute;
+    margin-top: 80px;
+    height: 700px;
+    width: 80%;
+}
+.all-box{
+    display: grid;
+    grid-template-columns: auto auto ;
+    width: 90%;
+    margin-left: 50px;
+}
+.all-box div{
+    height: 300px;
+    width: 450px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+
+.box-4{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.box-4 div{
+    background-color: #000;
+    width: 214px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+.rick-strom{
+   
+    margin-top: 170px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 23px;
+}
+.rick-strom div{
+    height: 70px;
+    width: 300px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: #000;
+ 
+}
+
+.rick-img img{
+    height: 63px;
+    padding: 5px 0 0 5px;
+}
+
+.rick-img{
+    position: relative;
+}
+.rick-img h3{
+    position: absolute;
+    color: #fff;
+    top: 10;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 800;
+    left: 90;
+}
+.rick-img i{
+    position: absolute;
+    bottom: 10;
+    left: 90;
+    background-color: #fff;
+    border-radius: 50%;
+    height: 17px;
+    width: 17px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+}
+.rick-img h6{
+    position: absolute;
+    color: #fff;
+    bottom: 5;
+    left: 115;
+    font-size: 10px;
+}
+.rick-img  span{
+    position: absolute;
+    display: flex;
+    top: 30;
+    right: 15;
+}
+.rick-img h4{
+    border: 1px solid #fff;
+    height: 5px;
+    width: 5px; 
+    border-radius: 50%; 
+    margin-right: 5px;
+}
+
+/* footer start here */
+
+.footer{
+    background-color: #000;
+    height: 47vh;
+    width: 100%;
+    position: relative;
+}
+
+.footer-content {
+    position: absolute;
+    width: 25%;
+   top: 50;
+   left: 310;
+}
+.footer-content  p{
+    color: #fff;
+}
+
+.footer .icons i{
+    color: #A81B2D;
+    font-size: 25px;
+    margin-right: 5px;
+}
+ .right-1{
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   height: 300px;
+}
+
+.right-2{
+    position: absolute;
+    height: 320px;
+    right: 300;
+    top: 20;
+    
+}
